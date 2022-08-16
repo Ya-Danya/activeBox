@@ -18,6 +18,17 @@
 </head>
 
 <body>
+  <svg style="display: none;">
+    <symbol viewBox="0 0 430.113 430.114" id="facebook">
+      <g>
+        <path d="M158.081,83.3c0,10.839,0,59.218,0,59.218h-43.385v72.412h43.385v215.183h89.122V214.936h59.805
+          c0,0,5.601-34.721,8.316-72.685c-7.784,0-67.784,0-67.784,0s0-42.127,0-49.511c0-7.4,9.717-17.354,19.321-17.354
+          c9.586,0,29.818,0,48.557,0c0-9.859,0-43.924,0-75.385c-25.016,0-53.476,0-66.021,0C155.878-0.004,158.081,72.48,158.081,83.3z"/>
+      </g>
+    </symbol>
+  </svg>
+
+
   <header class="header">
     <div class="container">
       <div class="header_inner">
@@ -164,8 +175,103 @@
   </div>
 
   <div class="team">
-    
+    <div class="team_selector">
+      <div class="teammate">
+          <img src="img/team/team-1.jpg" alt="#" class="teammate_photo">
+          <div class="teammate_name">Max Indrow</div>
+          <div class="teammate_post">Slave</div>
+          <div class="teammate_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores porro autem, nihil soluta recusandae blanditiis eius nostrum necessitatibus iste voluptate impedit dicta pariatur sunt consequuntur repudiandae? Beatae maxime deserunt odio!</div>
+          <div class="social">
+            <a href="#" class="icons" target="_blank">
+              <svg  class="icon_spryte">
+                <use xlink:href="#facebook"> </use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="teammate">
+          <img src="img/team/team-2.jpg" alt="#" class="teammate_photo">
+          <div class="teammate_name">Max Indrow</div>
+          <div class="teammate_post">Slave</div>
+          <div class="teammate_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores porro autem, nihil soluta recusandae blanditiis eius nostrum necessitatibus iste voluptate impedit dicta pariatur sunt consequuntur repudiandae? Beatae maxime deserunt odio!</div>
+          <div class="social">
+            <a href="#" class="icons" target="_blank">
+              <svg  class="icon_spryte">
+                <use xlink:href="#facebook"> </use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="teammate">
+          <img src="img/team/team-3.jpg" alt="#" class="teammate_photo">
+          <div class="teammate_name">Max Indrow</div>
+          <div class="teammate_post">Slave</div>
+          <div class="teammate_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores porro autem, nihil soluta recusandae blanditiis eius nostrum necessitatibus iste voluptate impedit dicta pariatur sunt consequuntur repudiandae? Beatae maxime deserunt odio!</div>
+          <div class="social">
+            <a href="#" class="icons" target="_blank" >
+              <svg  class="icon_spryte">
+                <use xlink:href="#facebook"> </use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="teammate">
+          <img src="img/team/team-4.jpg" alt="#" class="teammate_photo">
+          <div class="teammate_name">Max Indrow</div>
+          <div class="teammate_post">Slave</div>
+          <div class="teammate_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores porro autem, nihil soluta recusandae blanditiis eius nostrum necessitatibus iste voluptate impedit dicta pariatur sunt consequuntur repudiandae? Beatae maxime deserunt odio!</div>
+          <div class="social">
+            <a href="#" class="icons" target="_blank">
+              <svg  class="icon_spryte">
+                <use xlink:href="#facebook"> </use>
+              </svg>
+            </a>
+          </div>
+      </div>
+    </div>
   </div>
+
+  <div class="reviews">
+    <div class="container">
+      <div class="reviews_inner">
+        <div class="reviews_photo">
+          <img class="reviews_img" src="img/reviews/review-1.jpg">
+        </div>
+        <div class="reviews_content">
+          <div class="reviews_text">
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt non, quod explicabo dolores nam harum nihil odit iste ex, ratione iure sit. Quo illo perferendis provident a error ducimus magnam?"
+          </div>
+          <div class="reviews_author">
+            Padia Dianno
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="download">
+    <div class="container">
+      <h3 class="download_title">Are you ready to start? Download now for free.</h3>
+      <div class="download_subtitle">
+        Fusce dapabus, tellus ac curcus commodo
+      </div>
+      <a href="#" class="btn btn--red">
+        Download here
+      </a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer_item">
+
+    </div>
+    <div class="footer_item">
+
+    </div>
+    <div class="footer_item">
+      
+    </div>
+  </footer>
 </body>
 
 </html>
