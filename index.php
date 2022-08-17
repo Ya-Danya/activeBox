@@ -28,6 +28,31 @@
     </symbol>
   </svg>
 
+  <svg style="display: none;">
+    <symbol viewBox="0 0 512 512" id="twitter">
+      <g>
+        <path d="M4,440.5c55.6,5,105.7-9,151.3-43.2c-47.7-4.2-79.6-28-97.4-72.6c15.6,1.9,30.2,2.4,45.7-1.8  
+          c-51.4-16-78.8-49.6-82.5-103.8c15.4,7.2,29.9,12.4,47,12.6c-30.5-22.9-46.1-52.6-45.5-90c0.3-17.2,4.9-33.4,14-48.7
+          C93.1,159.1,164,195.7,251.3,201.8c-0.5-3.8-0.8-6.8-1.2-9.9c-7.2-55.4,28.8-105.8,83.8-116.3c34.5-6.6,65,2.5,90.8,26.3 
+          c4,3.6,7.4,4.4,12.4,3.1c20.1-5.1,39.2-12.5,57.7-22.5c-7.1,23.4-21.7,41-41.5,55.8c4.5-0.8,9.1-1.4,13.6-2.3
+          c4.7-1,9.4-2.1,14.1-3.4c4.5-1.2,8.9-2.6,13.3-4.1c4.5-1.5,9-3.2,14.3-4.1c-2.6,3.6-5.1,7.4-7.9,10.9c-11.6,14.7-25,27.6-39.7,39.1
+          c-1.5,1.2-2.8,3.8-2.7,5.6c0.8,35.5-4.2,70.1-15.7,103.7c-22.6,66.2-62,119.8-121.1,158.1c-29.2,18.9-61.1,31.3-95.2,38.5 
+          c-33.8,7.1-67.8,8.4-101.9,4.4c-34.2-4-66.7-14.1-97.3-29.9c-8.1-4.1-15.9-8.7-23.8-13.1C3.6,441.3,3.8,440.9,4,440.5z"/>
+      </g>
+    </symbol>
+  </svg>
+
+  <svg style="display: none;">
+    <symbol viewBox="0 0 32 32" id="linkedIn">
+      <g>
+        <path d="M32,31.292V19.46c0-6.34-3.384-9.29-7.896-9.29c-3.641,0-5.273,2.003-6.182,3.409v-2.924h-6.86
+          c0.091,1.937,0,20.637,0,20.637h6.86V19.767c0-0.615,0.044-1.232,0.226-1.672c0.495-1.233,1.624-2.509,3.518-2.509
+          c2.483,0,3.475,1.892,3.475,4.666v11.041H32V31.292z M3.835,7.838c2.391,0,3.882-1.586,3.882-3.567
+          c-0.044-2.024-1.49-3.564-3.836-3.564S0,2.246,0,4.271c0,1.981,1.489,3.567,3.792,3.567H3.835z M7.265,31.292V10.655H0.406v20.637   H7.265z"/>
+      </g>
+    </symbol>
+  </svg>
+
 
   <header class="header">
     <div class="container">
@@ -187,6 +212,16 @@
                 <use xlink:href="#facebook"> </use>
               </svg>
             </a>
+            <a href="#" class="icons" target="_blank">
+              <svg  class="icon_spryte">
+                <use xlink:href="#twitter"> </use>
+              </svg>
+            </a>
+            <a href="#" class="icons" target="_blank">
+              <svg  class="icon_spryte">
+                <use xlink:href="#linkedIn"> </use>
+              </svg>
+            </a>
           </div>
         </div>
         <div class="teammate">
@@ -198,6 +233,16 @@
             <a href="#" class="icons" target="_blank">
               <svg  class="icon_spryte">
                 <use xlink:href="#facebook"> </use>
+              </svg>
+            </a>
+            <a href="#" class="icons" target="_blank">
+              <svg  class="icon_spryte">
+                <use xlink:href="#twitter"> </use>
+              </svg>
+            </a>
+            <a href="#" class="icons" target="_blank">
+              <svg  class="icon_spryte">
+                <use xlink:href="#linkedIn"> </use>
               </svg>
             </a>
           </div>
@@ -213,6 +258,16 @@
                 <use xlink:href="#facebook"> </use>
               </svg>
             </a>
+            <a href="#" class="icons" target="_blank">
+              <svg  class="icon_spryte">
+                <use xlink:href="#twitter"> </use>
+              </svg>
+            </a>
+            <a href="#" class="icons" target="_blank">
+              <svg  class="icon_spryte">
+                <use xlink:href="#linkedIn"> </use>
+              </svg>
+            </a>
           </div>
         </div>
         <div class="teammate">
@@ -224,6 +279,16 @@
             <a href="#" class="icons" target="_blank">
               <svg  class="icon_spryte">
                 <use xlink:href="#facebook"> </use>
+              </svg>
+            </a>
+            <a href="#" class="icons" target="_blank">
+              <svg  class="icon_spryte">
+                <use xlink:href="#twitter"> </use>
+              </svg>
+            </a>
+            <a href="#" class="icons" target="_blank">
+              <svg  class="icon_spryte">
+                <use xlink:href="#linkedIn"> </use>
               </svg>
             </a>
           </div>
@@ -262,15 +327,54 @@
   </div>
 
   <footer class="footer">
-    <div class="footer_item">
+    <div class="container">
+      <div class="footer_inner">
+        <div class="footer_item">
+          <div class="footer_item_title">
+            Location
+          </div>
+          <div class="footer_item_text">
+            Russia, Moscow, Greena street 18
+          </div>
+        </div>
 
-    </div>
-    <div class="footer_item">
+        <div class="footer_item">
+          <div class="footer_item_title">
+            Share with love
+          </div>
+          <div class="social social_footer">
+            <a href="#" class="icons" target="_blank">
+              <svg  class="icon_spryte">
+                <use xlink:href="#facebook"> </use>
+              </svg>
+            </a>
+            <a href="#" class="icons" target="_blank">
+              <svg  class="icon_spryte">
+                <use xlink:href="#twitter"> </use>
+              </svg>
+            </a>
+            <a href="#" class="icons" target="_blank">
+              <svg  class="icon_spryte">
+                <use xlink:href="#linkedIn"> </use>
+              </svg>
+            </a>
+          </div>
+        </div>
 
+        <div class="footer_item">
+          <div class="footer_item_title">
+            About activebox
+          </div>
+          <div class="footer_item_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore est similique tempore adipisci dignissimos itaque quas? Iste, laboriosam expedita! Quis quae a unde id, error voluptas obcaecati nam voluptatem tempore.
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="footer_item">
-      
-    </div>
+    
+    <div class="copyright">
+      Some useless copyright text by Pralesh
+   </div>
   </footer>
 </body>
 
